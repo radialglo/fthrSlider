@@ -1,0 +1,106 @@
+/*
+ *jQuery FeatherSlider v1.0
+ *http://www.radialglo.com
+ *
+ * Copyright 2012, Anthony Su
+ * Free to use and abuse under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ *
+ *
+ */
+
+div#fthr-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 100%;
+	background: black;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+	opacity: 0.8;
+	color: black;
+	z-index: 1050;
+	vertical-align: middle;
+	display: none;
+}
+
+div#fthrGallery{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: 0 auto;
+	overflow: visible !important;
+	border-radius: 4px;
+	background: white url(ajax-loader.gif) center no-repeat;
+	/*http://ajaxload.info/*/
+	box-shadow: 0 3px 6px rgba(0, 0, 0, .25), 0 3px 3px -3px rgba(0,0,0,.45) !important;
+	z-index: 1100;
+	display: none;
+}
+
+#fthr-button {
+	cursor: pointer;
+}
+
+
+#fthr-button-left {
+	left: 1%;
+}
+
+#fthr-button-right {
+	right: 1%;
+}
+
+#fthr-button-left,
+#fthr-button-right {
+	position: absolute;
+	top: 50%;
+	background: black;
+	color:white;
+	padding: .2em;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, .25), 0 3px 3px -3px rgba(0,0,0,.45) !important;
+	border-radius: 4px;
+	margin: .4em auto;
+	cursor: pointer;
+	z-index: 1052;
+	display: none;
+}
+
+div#fthrGallery:hover span#fthr-button-left,
+div#fthrGallery:hover span#fthr-button-right{
+	display: inline;
+}
+
+span#fthr-close {
+	position: absolute;
+	top: -.5em;
+	right: -.5em;
+	z-index: 1200;
+	color: white;
+	font-weight: bolder;
+	background: black;
+	/*border: 2px solid #0cf ;*/
+	box-shadow: 0 0 10px -2px #111;
+	border-radius: 50%;
+	width: 1.2em;
+	height: 1.2em;
+	text-align: center;
+	cursor: pointer;
+}
+
+span#fthr-caption {
+	position: absolute;
+	bottom: 19px;
+	color: white;
+	background: black;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+	opacity: 0.8;
+	box-shadow: 0 0 10px -1px #111;
+	display: block;
+	margin: 0 auto;
+	z-index: 1101;
+	
+}
