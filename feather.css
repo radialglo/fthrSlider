@@ -25,7 +25,7 @@ div#fthr-overlay {
 	display: none;
 }
 
-div#fthrGallery{
+div#fthrGallery {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -70,7 +70,7 @@ div#fthrGallery{
 }
 
 div#fthrGallery:hover span#fthr-button-left,
-div#fthrGallery:hover span#fthr-button-right{
+div#fthrGallery:hover span#fthr-button-right {
 	display: inline;
 }
 
