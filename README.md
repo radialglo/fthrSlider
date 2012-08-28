@@ -11,12 +11,15 @@ CSS3 properties:
 + box-shadow
 + border-radius
 + rgba
++ text-shadow
 
 If image is too large, image is resized to fit browser window.
 
 Gallery is vertically aligned relative to the window.
 
 Plugin takes in arbitrary selector for a list of images.
+
+See here for [demo](http://www.radialglo.com/projects/web-portfolio/)
 
 Sample Usage:
 <pre><code> $(document).ready(function() {
